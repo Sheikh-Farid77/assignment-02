@@ -1,0 +1,9 @@
+@media only screen and (max-width: 576px) {
+    .nav-bar ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        color: #fff;
+    }
+}
