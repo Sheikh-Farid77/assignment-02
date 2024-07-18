@@ -1,4 +1,7 @@
 @media only screen and (max-width: 576px) {
+    .nav-bar{
+        width: 90vw;
+    }
     .nav-bar ul{
         display: none;
     }
@@ -6,4 +9,57 @@
         display: block;
         color: #fff;
     }
+    .banner-section{
+        width: 90vw;
+        flex-direction: column;
+    }
+    .left-content{
+        width: 100%;
+
+    }
+    .left-content > h1{
+        font-size: 2.2rem;
+    }
+    .right-content{
+        width: 100%;
+    }
+    .btn-1{
+        font-size: 1rem;
+        padding: 12px 30px 12px 30px;
+    }
+    .btn-2{
+        margin-left: 0px;
+        font-size: 1rem;
+        padding: 12px 30px 12px 30px;
+    }
+    .position-1{
+        top: 10%;
+        right: 0%;
+        width: 150px;
+        height: 75px;
+    }
+    .position-1 > h2{
+        font-size: 1.8rem;
+    }
+    .position-1 > h6{
+font-size: 0.5rem;
+    }
+    .position-2{
+        left: 0%;
+        bottom: 25%;
+        width: 150px;
+        height: 75px;
+    }
+    .circle{
+        height: 30px;
+        width: 30px;
+    }
+    .content > h3{
+        font-size: 1rem;
+    }
+    .content h6{
+        font-size: 0.5rem;
+    }
+    
+
 }

@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .nav-bar ul{
     display: flex;
@@ -41,6 +42,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 400;
+    cursor: pointer;
 }
 .home{
     padding: 8px 20px 8px 20px;
@@ -51,5 +53,120 @@
     display: none;
 }
 
-
 /* navigation bar end */
+
+/* banner section start */
+.banner-section{
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-content{
+    width: 50%;
+}
+.left-content > h1{
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 900;
+}
+.left-content > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.btn-1{
+    padding: 16px 40px 16px 40px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: #fff;
+    border-radius: 42px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.btn-2{
+    padding: 16px 40px 16px 40px;
+    border: none;
+    color: #fff;
+    border-radius: 42px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.right-content{
+    width: 40%;
+    text-align: right;
+    position: relative;
+}
+.right-content img{
+    width: 100%;
+}
+.position-1{
+position: absolute;
+width: 200px;
+height: 90px;
+top: 30%;
+right: -15%;
+padding: 0.8rem;
+color: #fff;
+text-align: left;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+}
+.position-1 > h2{
+    font-size: 2.5rem;
+    background: transparent;
+ 
+}
+.position-1 > h6{
+    font-size: 0.8rem;
+    background: transparent;
+}
+.position-2{
+    position: absolute;
+    left: -20%;
+    bottom: 16%;
+    width: 200px;
+    height: 90px;
+    padding: 0.8rem;
+    color: #fff;
+    text-align: left;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+.content{
+    background: transparent;
+
+}
+.content > h3{
+    font-size: 1.5rem;
+    background: transparent;
+
+}
+.content > h6{
+    font-size: 0.8rem;
+    background: transparent;
+
+
+}
+
+/* banner section end */
