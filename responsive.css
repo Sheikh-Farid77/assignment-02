@@ -67,6 +67,7 @@ font-size: 0.5rem;
         flex-direction: column;
         justify-content: center;
         gap: 2.5rem;
+        
     
     }
     .circle-item{
@@ -74,5 +75,40 @@ font-size: 0.5rem;
     }
 
     /* habit section end */
+
+    /* runner section start */
+    .runner-section{
+        flex-direction: column;
+        gap: 2.5rem;
+        justify-content: center;
+        width: 90vw;
+    }
+    .left-side-runner{
+        width: 100%;
+    }
+  
+    .left-side-runner > h1{
+        font-size: 2rem;
+    }
+    .left-side-runner > p {
+        font-size: 10px;
+    }
+    .left-side-runner > button {
+        width: 100%;
+    }
+    .right-side-runner{
+        width: 100%;
+    }
+
+    /* runner section end */
+
+    /* team section start */
+    .image-gallery{
+        width: 90vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* team section end */
 
 }
