@@ -101,6 +101,36 @@ font-size: 0.5rem;
     }
 
     /* runner section end */
+    /* bmi section start */
+    .title{
+        width: 90vw;
+        text-align: center;
+    }
+    .calculator{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        width: 90vw;
+    }
+    .bmi-left{
+        width: 100%;
+    
+    }
+    .bmi-left h1{
+        text-align: center;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .bmi-right{
+        width: 100%;
+    }
+
+    /* bmi section end */
 
     /* team section start */
     .image-gallery{

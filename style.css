@@ -283,6 +283,128 @@ border-radius: 12px;
 
 
 /* runner section end */
+/* bmi section start */
+.title{
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+.title > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.title > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.full{
+    background: rgb(34, 34, 34);
+}
+.calculator{
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    background: rgb(34, 34, 34);
+    padding: 3.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bmi-left{
+    width: 30%;
+    background: transparent;
+}
+.bmi-left > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 3.2rem;
+    background: transparent;
+}
+table, tr, th, td{
+    background-color: rgb(34, 34, 34);
+}
+table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+}
+th{
+    color: white;
+}
+th, td{
+    width: 150px;
+    height: 55px;
+}
+.bmi-right{
+    width: 50%;
+    background: transparent;
+}
+.bmi-right > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    background: transparent;
+}
+.bmi-right > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    background: transparent;
+}
+.input-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background: transparent;
+}
+input, select{
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* outline: none; */
+    outline-color: rgb(230, 83, 60);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+}
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+}
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.five{
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.input-5{
+    grid-column: 1/-1;
+}
+.calculate{
+    padding: 16px 40px 16px 40px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: #fff;
+    border-radius: 42px;
+    font-size: 1.2rem;
+    margin-top: 2.1rem;
+    cursor: pointer;
+}
+
+/* bmi section end */
 
 /* team section start */
 .team-section > h1{
