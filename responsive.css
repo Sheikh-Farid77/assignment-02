@@ -136,9 +136,20 @@ font-size: 0.5rem;
     .image-gallery{
         width: 90vw;
         grid-template-columns: repeat(1, 1fr);
+       
     }
 
 
     /* team section end */
+    /* footer section start */
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90vw;
+    }
+    .line{
+        width: 90vw;
+    }
+
+    /* footer section end */
 
 }

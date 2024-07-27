@@ -463,3 +463,70 @@ select {
 }
 
 /* team section end */
+/* footer part start */
+.footer-section{
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.footer-container{
+    width: 70vw;
+    margin: 0 auto;
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    
+    
+}
+.footer-item-1{
+    background: transparent;
+}
+.footer-item-1 > h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: transparent;
+    margin-bottom: 1.3rem;    
+
+}
+.footer-item-1 > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;  
+    background: transparent;  
+}
+.footer-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    background: transparent;    
+}
+.footer-container h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+    background: transparent;
+}
+.tran{
+    background: transparent;
+}
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.rights{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background: transparent;
+    margin-top: 4rem;
+}
+
+/* footer part end */
