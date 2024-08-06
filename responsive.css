@@ -24,12 +24,12 @@
         width: 100%;
     }
     .btn-1{
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 12px 30px 12px 30px;
     }
     .btn-2{
         margin-left: 0px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 12px 30px 12px 30px;
     }
     .position-1{
@@ -101,6 +101,32 @@ font-size: 0.5rem;
     }
 
     /* runner section end */
+    .training-section{
+        width: 90vw;
+        text-align: center;
+    }
+    .image-item-1{
+        grid-column: span 6;
+    }
+    .image-item-2{
+        grid-column: span 6;
+    }
+    .image-item-3{
+        grid-column: span 5;
+    }
+    .image-item-4{
+        grid-column: span 7;
+    }
+    .image-item-5{
+        display: none;
+    }
+    .image-item-6{
+        display: none;
+    }
+
+
+
+
     /* bmi section start */
     .title{
         width: 90vw;

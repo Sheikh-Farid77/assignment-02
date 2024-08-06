@@ -283,6 +283,71 @@ border-radius: 12px;
 
 
 /* runner section end */
+
+/* training section start */
+.training-section{
+    width: 70vw;
+    margin: 0 auto;
+}
+.training-section > h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.training-section > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 3rem;    
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 6rem;
+}
+
+.image-container > div{
+    height: 220px;
+}
+.image-item-1{
+    grid-column: span 3;
+    background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210,0.5)), url(images/exercise1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image-item-2{
+    grid-column: span 6;
+    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(images/exercise2.png);
+    background-size: cover;
+    background-position: center;
+}
+.image-item-3{
+    grid-column: span 3;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/exercise3.png);
+    background-size: cover;
+    background-position: center;
+}
+.image-item-4{
+    grid-column: span 5;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/exercise4.png);
+    background-size: cover;
+    background-position: center;
+}
+.image-item-5{
+    grid-column: span 3;
+    background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(images/exercise5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image-item-6{
+    grid-column: span 4;
+    background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(images/exercise6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* training section end */
 /* bmi section start */
 .title{
     width: 50vw;
@@ -369,7 +434,6 @@ input, select{
     width: 100%;
     height: 100%;
     border: none;
-    /* outline: none; */
     outline-color: rgb(230, 83, 60);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
