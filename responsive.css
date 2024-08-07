@@ -13,6 +13,10 @@
         width: 90vw;
         flex-direction: column;
     }
+    .font{
+        font-size: 5rem;
+        line-height: 1px;
+    }
     .left-content{
         width: 100%;
 
@@ -167,6 +171,21 @@ font-size: 0.5rem;
 
 
     /* team section end */
+    /* challenge section start */
+    .challenge-section{
+        width: 90vw;
+        padding: 0 0;
+    }
+    .price-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .price{
+        padding: 0 15px;
+    }
+
+
+    /* challenge section end */
     /* footer section start */
     .footer-container{
         grid-template-columns: repeat(1, 1fr);

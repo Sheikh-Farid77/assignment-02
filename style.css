@@ -1,6 +1,7 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 *{
     margin: 0;
@@ -63,6 +64,12 @@
     justify-content: space-between;
     align-items: center;
     
+}
+.font{
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+                                                
 }
 .left-content{
     width: 50%;
@@ -384,7 +391,7 @@ border-radius: 12px;
 }
 .bmi-left > h1 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 3.2rem;
     background: transparent;
@@ -412,7 +419,7 @@ th, td{
 }
 .bmi-right > h1 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 1rem;
     background: transparent;
@@ -527,6 +534,83 @@ select {
 }
 
 /* team section end */
+/* challenge section start */
+.challenge-section{
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.challenge-section > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.price-container{
+    margin-top: 4rem;
+    background: transparent;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+.price{
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+.price > h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    background: transparent;
+    text-align: center;
+    margin-top: 4rem;
+}
+.price > h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    background: transparent;
+    text-align: center;
+}
+.price > p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    background: transparent;
+    text-align: center;
+}
+.price-btn{
+    padding: 16px 40px 16px 40px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: #fff;
+    border-radius: 42px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    transition: 0.4s;
+
+}
+.price-btn:hover{
+    background-color: mediumpurple;
+}
+
+
+
+/* challenge section end */
+
 /* footer part start */
 .footer-section{
     background: rgba(255, 255, 255, 0.1);
