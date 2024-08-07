@@ -1,4 +1,5 @@
 @media only screen and (max-width: 576px) {
+    /* nav bar start */
     .nav-bar{
         width: 90vw;
     }
@@ -9,7 +10,9 @@
         display: block;
         color: #fff;
     }
-    .banner-section{
+    /* nav bar end */
+    /* banner section start */
+    .banner-container{
         width: 90vw;
         flex-direction: column;
     }
@@ -46,7 +49,7 @@
         font-size: 1.8rem;
     }
     .position-1 > h6{
-font-size: 0.5rem;
+        font-size: 0.5rem;
     }
     .position-2{
         left: 0%;
@@ -64,6 +67,7 @@ font-size: 0.5rem;
     .content h6{
         font-size: 0.5rem;
     }
+    /* banner section end */
     /* habit section start */
 
     .circle-container{

@@ -3,7 +3,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
 
 
 /* navigation bar start */
-.nav-bar{ 
+.nav-bar {
     width: 70vw;
     margin: 0 auto;
     display: flex;
@@ -23,7 +23,8 @@
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-.nav-bar ul{
+
+.nav-bar ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,59 +34,80 @@
     padding: 5px 20px;
 
 }
-.nav-title > h1{
+
+.nav-title>h1 {
     color: rgb(230, 83, 60);
     font-size: 2.4rem;
     font-weight: 800;
 }
-.nav-bar ul li{
+
+.nav-bar ul li {
     list-style: none;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 400;
     cursor: pointer;
 }
-.home{
+
+.home {
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
     background: rgb(230, 83, 60);
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
 
 /* navigation bar end */
 
 /* banner section start */
-.banner-section{
+.banner-section {
+    background-image: linear-gradient(#111111, #212121, #111111);
+    width: 100vw;
+
+}
+
+.banner-container {
     width: 70vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background: transparent;
+
+
 }
-.font{
+
+.font {
     font-family: 'Miama', sans-serif;
     font-size: 10rem;
     font-weight: 400;
-                                                
+    background: transparent;
+
 }
-.left-content{
+
+.left-content {
     width: 50%;
+    background: transparent;
 }
-.left-content > h1{
+
+.left-content>h1 {
     color: rgb(255, 255, 255);
     font-size: 5rem;
     font-weight: 900;
+    background: transparent;
 }
-.left-content > p{
+
+.left-content>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     margin-top: 1rem;
+    background: transparent;
 }
-.btn-1{
+
+.btn-1 {
     padding: 16px 40px 16px 40px;
     border: none;
     background: rgb(230, 83, 60);
@@ -96,7 +118,8 @@
     cursor: pointer;
 
 }
-.btn-2{
+
+.btn-2 {
     padding: 16px 40px 16px 40px;
     border: none;
     color: #fff;
@@ -108,37 +131,45 @@
     cursor: pointer;
 
 }
-.right-content{
+
+.right-content {
     width: 40%;
     text-align: right;
     position: relative;
+    background: transparent;
 }
-.right-content img{
+
+.right-content img {
     width: 100%;
+    background: transparent;
 }
-.position-1{
-position: absolute;
-width: 200px;
-height: 90px;
-top: 30%;
-right: -15%;
-padding: 0.8rem;
-color: #fff;
-text-align: left;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-border-radius: 12px;
+
+.position-1 {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    top: 30%;
+    right: -15%;
+    padding: 0.8rem;
+    color: #fff;
+    text-align: left;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
 }
-.position-1 > h2{
+
+.position-1>h2 {
     font-size: 2.5rem;
     background: transparent;
- 
+
 }
-.position-1 > h6{
+
+.position-1>h6 {
     font-size: 0.8rem;
     background: transparent;
 }
-.position-2{
+
+.position-2 {
     position: absolute;
     left: -20%;
     bottom: 16%;
@@ -154,22 +185,26 @@ border-radius: 12px;
     align-items: center;
     gap: 10px;
 }
-.circle{
+
+.circle {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
 }
-.content{
+
+.content {
     background: transparent;
 
 }
-.content > h3{
+
+.content>h3 {
     font-size: 1.5rem;
     background: transparent;
 
 }
-.content > h6{
+
+.content>h6 {
     font-size: 0.8rem;
     background: transparent;
 
@@ -185,41 +220,47 @@ border-radius: 12px;
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
-.habit-section > h1{
+
+.habit-section>h1 {
     color: #fff;
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
 }
-.habit-section > p {
+
+.habit-section>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
-.circle-container{
+
+.circle-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 3.5rem;
 
 }
-.circle-item{
+
+.circle-item {
     width: 14%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.image-circle{
+
+.image-circle {
     height: 180px;
     width: 180px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 2rem;
 }
-.circle-text > h3{
+
+.circle-text>h3 {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 600;
@@ -227,7 +268,8 @@ border-radius: 12px;
     margin-bottom: 0.4rem;
 
 }
-.circle-text > p {
+
+.circle-text>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
@@ -237,7 +279,7 @@ border-radius: 12px;
 /* habit section end */
 
 /* runner section start */
-.runner-section{
+.runner-section {
     width: 70vw;
     margin: 0 auto;
     border-radius: 18px;
@@ -250,25 +292,29 @@ border-radius: 12px;
 
 
 }
-.left-side-runner{
+
+.left-side-runner {
     width: 40%;
     background: transparent;
 }
-.left-side-runner > h1 {
+
+.left-side-runner>h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
     background: transparent;
 }
-.left-side-runner > p {
+
+.left-side-runner>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 2rem;
     background: transparent;
 }
-.left-side-runner > button {
+
+.left-side-runner>button {
     padding: 16px 40px 16px 40px;
     border: none;
     background: rgb(230, 83, 60);
@@ -277,77 +323,88 @@ border-radius: 12px;
     font-size: 1.2rem;
     cursor: pointer;
 }
-.right-side-runner{
+
+.right-side-runner {
     width: 40%;
     overflow: hidden;
     background-color: rgb(34, 34, 34);
 }
-.right-side-runner img{
+
+.right-side-runner img {
     width: 100%;
     border-radius: 18px;
-    
+
 }
 
 
 /* runner section end */
 
 /* training section start */
-.training-section{
+.training-section {
     width: 70vw;
     margin: 0 auto;
 }
-.training-section > h1{
+
+.training-section>h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
-.training-section > p{
+
+.training-section>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 3rem;    
+    margin-bottom: 3rem;
 }
-.image-container{
+
+.image-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin-bottom: 6rem;
 }
 
-.image-container > div{
+.image-container>div {
     height: 220px;
 }
-.image-item-1{
+
+.image-item-1 {
     grid-column: span 3;
-    background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210,0.5)), url(images/exercise1.jpg);
+    background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(images/exercise1.jpg);
     background-size: cover;
     background-position: center;
 }
-.image-item-2{
+
+.image-item-2 {
     grid-column: span 6;
     background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(images/exercise2.png);
     background-size: cover;
     background-position: center;
 }
-.image-item-3{
+
+.image-item-3 {
     grid-column: span 3;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/exercise3.png);
     background-size: cover;
     background-position: center;
 }
-.image-item-4{
+
+.image-item-4 {
     grid-column: span 5;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/exercise4.png);
     background-size: cover;
     background-position: center;
 }
-.image-item-5{
+
+.image-item-5 {
     grid-column: span 3;
     background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(images/exercise5.jpg);
     background-size: cover;
     background-position: center;
 }
-.image-item-6{
+
+.image-item-6 {
     grid-column: span 4;
     background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(images/exercise6.jpg);
     background-size: cover;
@@ -356,26 +413,30 @@ border-radius: 12px;
 
 /* training section end */
 /* bmi section start */
-.title{
+.title {
     width: 50vw;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
-.title > h1 {
+
+.title>h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
-.title > p {
+
+.title>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
 }
-.full{
+
+.full {
     background: rgb(34, 34, 34);
 }
-.calculator{
+
+.calculator {
     width: 70vw;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -385,59 +446,77 @@ border-radius: 12px;
     align-items: center;
     justify-content: space-between;
 }
-.bmi-left{
+
+.bmi-left {
     width: 30%;
     background: transparent;
 }
-.bmi-left > h1 {
+
+.bmi-left>h1 {
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 3.2rem;
     background: transparent;
 }
-table, tr, th, td{
+
+table,
+tr,
+th,
+td {
     background-color: rgb(34, 34, 34);
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     background: transparent;
 }
-th{
+
+th {
     color: white;
 }
-th, td{
+
+th,
+td {
     width: 150px;
     height: 55px;
 }
-.bmi-right{
+
+.bmi-right {
     width: 50%;
     background: transparent;
 }
-.bmi-right > h1 {
+
+.bmi-right>h1 {
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 1rem;
     background: transparent;
 }
-.bmi-right > p {
+
+.bmi-right>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 2rem;
     background: transparent;
 }
-.input-item{
+
+.input-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     background: transparent;
 }
-input, select{
+
+input,
+select {
     width: 100%;
     height: 100%;
     border: none;
@@ -446,25 +525,28 @@ input, select{
     background: rgba(255, 255, 255, 0.1);
     padding: 0 20px;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 1rem;
     font-weight: 400;
 }
+
 select {
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
 }
 
-.five{
+.five {
     height: 3rem;
     border-radius: 8px;
 }
 
-.input-5{
+.input-5 {
     grid-column: 1/-1;
 }
-.calculate{
+
+.calculate {
     padding: 16px 40px 16px 40px;
     border: none;
     background: rgb(230, 83, 60);
@@ -478,14 +560,15 @@ select {
 /* bmi section end */
 
 /* team section start */
-.team-section > h1{
+.team-section>h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
 }
-.team-section > p {
+
+.team-section>p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 1rem;
@@ -494,7 +577,7 @@ select {
     margin-bottom: 4rem;
 }
 
-.image-gallery{
+.image-gallery {
     width: 70vw;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -505,65 +588,73 @@ select {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
 }
-.grid-item{
+
+.grid-item {
     background: transparent;
     position: relative;
     height: 300px;
 }
-.grid-item img{
+
+.grid-item img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
     background: transparent;
-    
+
 }
-.name{
+
+.name {
     background: transparent;
     position: absolute;
     left: 5%;
     bottom: 5%;
 }
-.name > h3{
+
+.name>h3 {
     color: white;
     margin-bottom: 0.2rem;
     background: transparent;
 }
-.name > p{
+
+.name>p {
     color: rgba(255, 255, 255, 0.5);
     background: transparent;
 }
 
 /* team section end */
 /* challenge section start */
-.challenge-section{
+.challenge-section {
     width: 70vw;
     margin: 0 auto;
     padding: 0 3rem;
 }
-.challenge-section > h1 {
+
+.challenge-section>h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
     margin-bottom: 1rem;
 }
-.price-container{
+
+.price-container {
     margin-top: 4rem;
     background: transparent;
     display: flex;
     gap: 150px;
     align-items: center;
     margin-bottom: 3rem;
-    
+
 }
 
-.price{
+.price {
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 0 1rem;
 }
-.price > h2{
+
+.price>h2 {
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
     font-weight: 900;
@@ -572,7 +663,8 @@ select {
     text-align: center;
     margin-top: 4rem;
 }
-.price > h1{
+
+.price>h1 {
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: 900;
@@ -580,7 +672,8 @@ select {
     background: transparent;
     text-align: center;
 }
-.price > p{
+
+.price>p {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 900;
@@ -588,7 +681,8 @@ select {
     background: transparent;
     text-align: center;
 }
-.price-btn{
+
+.price-btn {
     padding: 16px 40px 16px 40px;
     border: none;
     background: rgb(230, 83, 60);
@@ -603,7 +697,8 @@ select {
     transition: 0.4s;
 
 }
-.price-btn:hover{
+
+.price-btn:hover {
     background-color: mediumpurple;
 }
 
@@ -612,63 +707,72 @@ select {
 /* challenge section end */
 
 /* footer part start */
-.footer-section{
+.footer-section {
     background: rgba(255, 255, 255, 0.1);
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-.footer-container{
+
+.footer-container {
     width: 70vw;
     margin: 0 auto;
     background: transparent;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
-    
-    
+
+
 }
-.footer-item-1{
+
+.footer-item-1 {
     background: transparent;
 }
-.footer-item-1 > h1 {
+
+.footer-item-1>h1 {
     color: rgb(230, 83, 60);
     font-size: 4.5rem;
     font-weight: 800;
     background: transparent;
-    margin-bottom: 1.3rem;    
+    margin-bottom: 1.3rem;
 
 }
-.footer-item-1 > p{
+
+.footer-item-1>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-    font-weight: 400;  
-    background: transparent;  
+    font-weight: 400;
+    background: transparent;
 }
-.footer-container h2{
+
+.footer-container h2 {
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2.5rem;
-    background: transparent;    
+    background: transparent;
 }
-.footer-container h3{
+
+.footer-container h3 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 1.3rem;
     background: transparent;
 }
-.tran{
+
+.tran {
     background: transparent;
 }
-.line{
+
+.line {
     border: 2px solid rgba(255, 255, 255, 0.1);
     background: transparent;
     width: 70vw;
     margin: 0 auto;
     margin-top: 6rem;
 }
-.rights{
+
+.rights {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     font-weight: 400;
